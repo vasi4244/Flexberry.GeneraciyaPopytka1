@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya-popytka-1-настройка-теста-e",
+  "editForm": "i-i-s-generaciya-popytka-1-настройка-теста-e",
+  "external": false,
+  "caption": "Настройка_теста",
+  "name": "IISGeneraciya_popytka_1Настройка_тестаL",
+  "className": "Настройка_тестаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-popytka-1-настройка-теста",
+      "modelProjection": "Настройка_тестаL"
+    }
+  ]
+}

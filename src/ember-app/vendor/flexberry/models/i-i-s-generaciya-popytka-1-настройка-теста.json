@@ -1,0 +1,141 @@
+﻿{
+  "name": "IISGeneraciya_popytka_1Настройка_теста",
+  "modelName": "i-i-s-generaciya-popytka-1-настройка-теста",
+  "className": "Настройка_теста",
+  "nameSpace": "IIS.Generaciya_popytka_1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "код",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "название_Теста",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-generaciya-popytka-1-сотрудники",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "тч2",
+      "relatedTo": "i-i-s-generaciya-popytka-1-тч2",
+      "inverse": "настройка_теста"
+    }
+  ],
+  "projections": [
+    {
+      "name": "Настройка_тестаE",
+      "modelName": "i-i-s-generaciya-popytka-1-настройка-теста",
+      "attrs": [
+        {
+          "name": "название_Теста",
+          "caption": "Название_ теста",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Отчество",
+          "lookupValueField": "отчество",
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "отчество",
+              "caption": "Отчество",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Сотрудники",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-generaciya-popytka-1-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "Тч2E",
+          "caption": "Тч2",
+          "name": "тч2",
+          "relatedTo": "i-i-s-generaciya-popytka-1-тч2",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "Настройка_тестаL",
+      "modelName": "i-i-s-generaciya-popytka-1-настройка-теста",
+      "attrs": [
+        {
+          "name": "название_Теста",
+          "caption": "Название_ теста",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "отчество",
+              "caption": "Отчество",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Отчество",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-generaciya-popytka-1-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

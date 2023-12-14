@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya-popytka-1-отделы-e",
+  "editForm": "i-i-s-generaciya-popytka-1-отделы-e",
+  "external": false,
+  "caption": "Отделы",
+  "name": "IISGeneraciya_popytka_1ОтделыL",
+  "className": "ОтделыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-popytka-1-отделы",
+      "modelProjection": "ОтделыL"
+    }
+  ]
+}

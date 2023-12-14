@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISGeneraciya_popytka_1Список_Сотрудников_для_прохождения_теста",
+  "modelName": "i-i-s-generaciya-popytka-1-список-сотрудников-для-прохождения-теста",
+  "className": "Список_Сотрудников_для_прохождения_теста",
+  "nameSpace": "IIS.Generaciya_popytka_1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "настройка_теста",
+      "relatedTo": "i-i-s-generaciya-popytka-1-настройка-теста",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "тч2",
+      "relatedTo": "i-i-s-generaciya-popytka-1-тч2",
+      "inverse": "список_Сотрудников_для_прохождения_теста"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "Список_Сотрудников_для_прохождения_тестаE",
+      "modelName": "i-i-s-generaciya-popytka-1-список-сотрудников-для-прохождения-теста",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Название_Теста",
+          "lookupValueField": "название_Теста",
+          "relationName": "Настройка_теста",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "название_Теста",
+              "caption": "Название_ теста",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Настройка_теста",
+          "name": "настройка_теста",
+          "relatedTo": "i-i-s-generaciya-popytka-1-настройка-теста",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,4 @@
+import IISGeneraciya_popytka_1Настройка_тестаEController from '../i-i-s-generaciya-popytka-1-настройка-теста-e';
+
+var IISGeneraciya_popytka_1Настройка_тестаENewController = IISGeneraciya_popytka_1Настройка_тестаEController;
+export default IISGeneraciya_popytka_1Настройка_тестаENewController;

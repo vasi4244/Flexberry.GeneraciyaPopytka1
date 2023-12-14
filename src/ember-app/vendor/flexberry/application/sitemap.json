@@ -1,0 +1,58 @@
+﻿{
+  "applicationCaption": "Generaciya_popytka_1",
+  "applicationTitle": "Generaciya_popytka_1",
+  "items": [
+    {
+      "link": null,
+      "menuName": "generaciya-popytka-1",
+      "caption": "Generaciya_popytka_1",
+      "title": "Generaciya_popytka_1",
+      "children": [
+        {
+          "link": "i-i-s-generaciya-popytka-1-настройка-теста-l",
+          "menuName": null,
+          "caption": "Настройка_теста",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "кадры",
+      "caption": "Кадры",
+      "title": "Кадры",
+      "children": [
+        {
+          "link": "i-i-s-generaciya-popytka-1-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-generaciya-popytka-1-отделы-l",
+          "menuName": null,
+          "caption": "Отделы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-generaciya-popytka-1-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-generaciya-popytka-1-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

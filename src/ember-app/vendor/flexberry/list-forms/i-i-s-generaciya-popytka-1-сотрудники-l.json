@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya-popytka-1-сотрудники-e",
+  "editForm": "i-i-s-generaciya-popytka-1-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISGeneraciya_popytka_1СотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-popytka-1-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

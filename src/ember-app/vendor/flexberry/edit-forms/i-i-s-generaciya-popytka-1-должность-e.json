@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Должность",
+  "name": "IISGeneraciya_popytka_1ДолжностьE",
+  "className": "ДолжностьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-popytka-1-должность",
+      "modelProjection": "ДолжностьE"
+    }
+  ]
+}

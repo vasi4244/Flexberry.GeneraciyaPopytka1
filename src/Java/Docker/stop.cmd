@@ -1,0 +1,1 @@
+docker-compose -p generaciya_popytka_1-java down

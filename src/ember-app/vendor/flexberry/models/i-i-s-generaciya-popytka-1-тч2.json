@@ -1,0 +1,136 @@
+﻿{
+  "name": "IISGeneraciya_popytka_1Тч2",
+  "modelName": "i-i-s-generaciya-popytka-1-тч2",
+  "className": "Тч2",
+  "nameSpace": "IIS.Generaciya_popytka_1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "вариантОт1",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "вариантОт2",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "вариантОт3",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "вопрос",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-generaciya-popytka-1-сотрудники",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "настройка_теста",
+      "relatedTo": "i-i-s-generaciya-popytka-1-настройка-теста",
+      "inverse": "тч2"
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "список_Сотрудников_для_прохождения_теста",
+      "relatedTo": "i-i-s-generaciya-popytka-1-список-сотрудников-для-прохождения-теста",
+      "inverse": "тч2"
+    }
+  ],
+  "projections": [
+    {
+      "name": "Тч2E",
+      "modelName": "i-i-s-generaciya-popytka-1-тч2",
+      "attrs": [
+        {
+          "name": "вариантОт1",
+          "caption": "Вариант от1",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "вариантОт3",
+          "caption": "Вариант от3",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "вопрос",
+          "caption": "Вопрос",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "вариантОт2",
+          "caption": "Вариант от2",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Отчество",
+          "lookupValueField": "отчество",
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "отчество",
+              "caption": "Отчество",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Сотрудники",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-generaciya-popytka-1-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "Список_Сотрудников_для_прохождения_тестаE",
+          "caption": "Список_ сотрудников_для_прохождения_теста",
+          "name": "список_Сотрудников_для_прохождения_теста",
+          "relatedTo": "i-i-s-generaciya-popytka-1-список-сотрудников-для-прохождения-теста",
+          "inverse": null
+        }
+      ]
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

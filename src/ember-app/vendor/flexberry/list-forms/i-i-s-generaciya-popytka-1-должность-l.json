@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya-popytka-1-должность-e",
+  "editForm": "i-i-s-generaciya-popytka-1-должность-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISGeneraciya_popytka_1ДолжностьL",
+  "className": "ДолжностьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-popytka-1-должность",
+      "modelProjection": "ДолжностьL"
+    }
+  ]
+}
