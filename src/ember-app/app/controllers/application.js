@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-generaciya-popytka-1-настройка-теста-l',
             caption: i18n.t('forms.application.sitemap.generaciya-popytka-1.i-i-s-generaciya-popytka-1-настройка-теста-l.caption'),
             title: i18n.t('forms.application.sitemap.generaciya-popytka-1.i-i-s-generaciya-popytka-1-настройка-теста-l.title'),
-            icon: 'list',
+            icon: 'calendar',
             children: null
           }]
         }, {
@@ -40,25 +40,25 @@ export default Controller.extend({
             link: 'i-i-s-generaciya-popytka-1-организация-l',
             caption: i18n.t('forms.application.sitemap.кадры.i-i-s-generaciya-popytka-1-организация-l.caption'),
             title: i18n.t('forms.application.sitemap.кадры.i-i-s-generaciya-popytka-1-организация-l.title'),
-            icon: 'archive',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-generaciya-popytka-1-отделы-l',
             caption: i18n.t('forms.application.sitemap.кадры.i-i-s-generaciya-popytka-1-отделы-l.caption'),
             title: i18n.t('forms.application.sitemap.кадры.i-i-s-generaciya-popytka-1-отделы-l.title'),
-            icon: 'paperclip',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-generaciya-popytka-1-должность-l',
             caption: i18n.t('forms.application.sitemap.кадры.i-i-s-generaciya-popytka-1-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.кадры.i-i-s-generaciya-popytka-1-должность-l.title'),
-            icon: 'chart bar',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-generaciya-popytka-1-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.кадры.i-i-s-generaciya-popytka-1-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.кадры.i-i-s-generaciya-popytka-1-сотрудники-l.title'),
-            icon: 'folder open',
+            icon: 'file',
             children: null
           }]
         }

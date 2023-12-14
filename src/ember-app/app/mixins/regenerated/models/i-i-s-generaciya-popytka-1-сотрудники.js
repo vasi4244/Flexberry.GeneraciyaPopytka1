@@ -99,12 +99,12 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('СотрудникиL', 'i-i-s-generaciya-popytka-1-сотрудники', {
-    отчество: attr('Отчество', { index: 0 }),
-    имя: attr('Имя', { index: 1 }),
-    iD: attr('ID', { index: 2 }),
-    номерПас: attr('Номер пас', { index: 3 }),
-    серияПас: attr('Серия пас', { index: 4 }),
-    фамилия: attr('Фамилия', { index: 5 }),
+    iD: attr('ID', { index: 0 }),
+    фамилия: attr('Фамилия', { index: 1 }),
+    имя: attr('Имя', { index: 2 }),
+    отчество: attr('Отчество', { index: 3 }),
+    номерПас: attr('Номер паспорта', { index: 4 }),
+    серияПас: attr('Серия паспорта', { index: 5 }),
     организация: belongsTo('i-i-s-generaciya-popytka-1-организация', 'Наименование', {
       наименование: attr('Наименование', { index: 6 })
     }, { index: -1, hidden: true }),
