@@ -72,62 +72,32 @@
       "modelName": "i-i-s-generaciya-popytka-1-тч2",
       "attrs": [
         {
-          "name": "вариантОт1",
-          "caption": "Вариант от1",
+          "name": "вопрос",
+          "caption": "Вопрос",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "вариантОт3",
-          "caption": "Вариант от3",
+          "name": "вариантОт1",
+          "caption": "Вариант ответа 1",
           "hidden": false,
           "index": 1
         },
         {
-          "name": "вопрос",
-          "caption": "Вопрос",
+          "name": "вариантОт2",
+          "caption": "Вариант ответа 2",
           "hidden": false,
           "index": 2
         },
         {
-          "name": "вариантОт2",
-          "caption": "Вариант от2",
+          "name": "вариантОт3",
+          "caption": "Вариант ответа 3",
           "hidden": false,
           "index": 3
         }
       ],
-      "belongsTo": [
-        {
-          "lookupValue": "Отчество",
-          "lookupValueField": "отчество",
-          "relationName": "Сотрудники",
-          "belongsTo": [],
-          "hidden": false,
-          "attrs": [
-            {
-              "name": "отчество",
-              "caption": "Отчество",
-              "hidden": true,
-              "index": 5
-            }
-          ],
-          "index": 4,
-          "type": "standard",
-          "caption": "Сотрудники",
-          "name": "сотрудники",
-          "relatedTo": "i-i-s-generaciya-popytka-1-сотрудники",
-          "inverse": null
-        }
-      ],
-      "hasMany": [
-        {
-          "projectionName": "Список_Сотрудников_для_прохождения_тестаE",
-          "caption": "Список_ сотрудников_для_прохождения_теста",
-          "name": "список_Сотрудников_для_прохождения_теста",
-          "relatedTo": "i-i-s-generaciya-popytka-1-список-сотрудников-для-прохождения-теста",
-          "inverse": null
-        }
-      ]
+      "belongsTo": [],
+      "hasMany": []
     }
   ],
   "stored": true,

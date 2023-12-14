@@ -29,16 +29,10 @@ namespace IIS.Generaciya_popytka_1
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("Тч2E", new string[] {
-            "ВариантОт1 as \'Вариант от1\'",
-            "ВариантОт3 as \'Вариант от3\'",
             "Вопрос as \'Вопрос\'",
-            "ВариантОт2 as \'Вариант от2\'",
-            "Сотрудники as \'Сотрудники\'",
-            "Сотрудники.Отчество as \'Отчество\'"}, Hidden=new string[] {
-            "Сотрудники.Отчество"})]
-    [AssociatedDetailViewAttribute("Тч2E", "Список_Сотрудников_для_прохождения_теста", "Список_Сотрудников_для_прохождения_тестаE", true, "", "Список_ сотрудников_для_прохождения_теста", true, new string[] {
-            ""})]
-    [MasterViewDefineAttribute("Тч2E", "Сотрудники", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Отчество")]
+            "ВариантОт1 as \'Вариант ответа 1\'",
+            "ВариантОт2 as \'Вариант ответа 2\'",
+            "ВариантОт3 as \'Вариант ответа 3\'"})]
     public class Тч2 : ICSSoft.STORMNET.DataObject
     {
         

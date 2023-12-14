@@ -27,12 +27,22 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.отчество
-      class=(if (v-get validationModel "отчество" "isInvalid") "error")
-      label=(t "forms.i-i-s-generaciya-popytka-1-сотрудники-e.отчество-caption")
-      data-test-i-i-s-generaciya-popytka-1-сотрудники-e-отчество=true
+      value=model.iD
+      class=(if (v-get validationModel "iD" "isInvalid") "error")
+      label=(t "forms.i-i-s-generaciya-popytka-1-сотрудники-e.iD-caption")
+      data-test-i-i-s-generaciya-popytka-1-сотрудники-e-iD=true
     }}
-    {{flexberry-validationmessage error=(v-get validationModel "отчество" "message")}}
+    {{flexberry-validationmessage error=(v-get validationModel "iD" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.фамилия
+      class=(if (v-get validationModel "фамилия" "isInvalid") "error")
+      label=(t "forms.i-i-s-generaciya-popytka-1-сотрудники-e.фамилия-caption")
+      data-test-i-i-s-generaciya-popytka-1-сотрудники-e-фамилия=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "фамилия" "message")}}
   </div>
   <div class="field">
     {{flexberry-field
@@ -47,12 +57,12 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.iD
-      class=(if (v-get validationModel "iD" "isInvalid") "error")
-      label=(t "forms.i-i-s-generaciya-popytka-1-сотрудники-e.iD-caption")
-      data-test-i-i-s-generaciya-popytka-1-сотрудники-e-iD=true
+      value=model.отчество
+      class=(if (v-get validationModel "отчество" "isInvalid") "error")
+      label=(t "forms.i-i-s-generaciya-popytka-1-сотрудники-e.отчество-caption")
+      data-test-i-i-s-generaciya-popytka-1-сотрудники-e-отчество=true
     }}
-    {{flexberry-validationmessage error=(v-get validationModel "iD" "message")}}
+    {{flexberry-validationmessage error=(v-get validationModel "отчество" "message")}}
   </div>
   <div class="field">
     {{flexberry-field
@@ -73,16 +83,6 @@
       data-test-i-i-s-generaciya-popytka-1-сотрудники-e-серияПас=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "серияПас" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=readonly
-      value=model.фамилия
-      class=(if (v-get validationModel "фамилия" "isInvalid") "error")
-      label=(t "forms.i-i-s-generaciya-popytka-1-сотрудники-e.фамилия-caption")
-      data-test-i-i-s-generaciya-popytka-1-сотрудники-e-фамилия=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "фамилия" "message")}}
   </div>
   <div class="field">
     <label>{{t "forms.i-i-s-generaciya-popytka-1-сотрудники-e.организация-caption"}}</label>

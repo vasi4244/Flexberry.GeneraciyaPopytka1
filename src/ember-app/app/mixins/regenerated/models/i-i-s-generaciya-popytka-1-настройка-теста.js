@@ -49,19 +49,10 @@ export let defineProjections = function (modelClass) {
       отчество: attr('Отчество', { index: 3, hidden: true })
     }, { index: 2, displayMemberPath: 'отчество' }),
     тч2: hasMany('i-i-s-generaciya-popytka-1-тч2', 'Тч2', {
-      вариантОт1: attr('Вариант от1', { index: 0 }),
-      вариантОт3: attr('Вариант от3', { index: 1 }),
-      вопрос: attr('Вопрос', { index: 2 }),
-      вариантОт2: attr('Вариант от2', { index: 3 }),
-      сотрудники: belongsTo('i-i-s-generaciya-popytka-1-сотрудники', 'Сотрудники', {
-        отчество: attr('Отчество', { index: 5, hidden: true })
-      }, { index: 4, displayMemberPath: 'отчество' }),
-      список_Сотрудников_для_прохождения_теста: hasMany('i-i-s-generaciya-popytka-1-список-сотрудников-для-прохождения-теста', 'Список_ сотрудников_для_прохождения_теста', {
-        дата: attr('Дата', { index: 0 }),
-        настройка_теста: belongsTo('i-i-s-generaciya-popytka-1-настройка-теста', 'Настройка_теста', {
-          название_Теста: attr('Название_ теста', { index: 2, hidden: true })
-        }, { index: 1, displayMemberPath: 'название_Теста' })
-      })
+      вопрос: attr('Вопрос', { index: 0 }),
+      вариантОт1: attr('Вариант ответа 1', { index: 1 }),
+      вариантОт2: attr('Вариант ответа 2', { index: 2 }),
+      вариантОт3: attr('Вариант ответа 3', { index: 3 })
     })
   });
 

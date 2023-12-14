@@ -7,22 +7,6 @@
       "relationName": "Сотрудники",
       "projection": "СотрудникиL",
       "detailModelName": null
-    },
-    {
-      "master": "сотрудники",
-      "displayAttributeName": "отчество",
-      "required": true,
-      "relationName": "Тч2.Сотрудники",
-      "projection": "СотрудникиL",
-      "detailModelName": "i-i-s-generaciya-popytka-1-тч2"
-    },
-    {
-      "master": null,
-      "displayAttributeName": null,
-      "required": false,
-      "relationName": "Тч2.Список_Сотрудников_для_прохождения_теста.Настройка_теста",
-      "projection": "Настройка_тестаL",
-      "detailModelName": null
     }
   ],
   "external": false,
